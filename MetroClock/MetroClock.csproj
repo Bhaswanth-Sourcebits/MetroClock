@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{025DE095-014F-4448-AF4D-619631B74583}</ProjectGuid>
+    <ProjectGuid>{1B86DFBE-EBEB-44F0-9758-6EAA5EAD5A1F}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MetroClock</RootNamespace>

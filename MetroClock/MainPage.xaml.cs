@@ -21,8 +21,6 @@ namespace MetroClock
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        System.DateTime currentDate = DateTime.Now;
-
         public MainPage()
         {
             this.InitializeComponent();
@@ -67,8 +65,5 @@ namespace MetroClock
             // Start the storyboard.
             clockStoryboard.Begin();
         }
-
-
-
     }
 }

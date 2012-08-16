@@ -6,8 +6,7 @@
     xmlns:local="using:MetroClock"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    >
+    mc:Ignorable="d">
 
     <Page.Resources>
         <Storyboard
@@ -37,27 +36,33 @@
                 Storyboard.TargetProperty="Angle"
                 Duration="0:1:0"
                 RepeatBehavior="Forever"
-                To="360" 
-                />
+                To="360" />
         </Storyboard>
     </Page.Resources>
-
+    
     <Grid
         x:Name="LayoutRoot"
         Loaded="SetAndStartClock">
-        <!-- Shadow -->
+<!-- Shadow -->
+      
         <Ellipse
             Fill="#FF000000"
+            HorizontalAlignment="Left"
             Height="330"
-            Margin="42,42,28,28"
-            Opacity="0.3"
-            Width="330" />
-        <!-- Outer Rim -->
+            Margin="312,240,0,0"
+            Stroke="Black"
+            VerticalAlignment="Top"
+            Width="330"
+            Opacity="0.3"/>
+        
+<!-- Outer Rim -->
         <Ellipse
+            HorizontalAlignment="Left"
             Height="330"
-            Margin="35,35,35,35"
-            Stroke="#FF000000"
-            Width="330">
+            Margin="307,235,0,0"
+            Stroke="Black"
+            VerticalAlignment="Top"
+            Width="330" >
             <Ellipse.Fill>
                 <LinearGradientBrush
                     EndPoint="0.84,0.87"
@@ -70,14 +75,16 @@
                 </LinearGradientBrush>
             </Ellipse.Fill>
         </Ellipse>
-
-        <!-- Bevel -->
+        
+<!-- Bevel -->
         <Ellipse
+            HorizontalAlignment="Left"
             Height="290"
-            Margin="55,55,55,55"
-            Width="290"
-            Stroke="#FF000000">
-            <Ellipse.Fill>
+            Margin="327,257,0,0"
+            Stroke="Black"
+            VerticalAlignment="Top"
+            Width="290">
+<Ellipse.Fill>
                 <LinearGradientBrush
                     EndPoint="0.84,0.87"
                     StartPoint="0.164,0.129">
@@ -89,72 +96,79 @@
                 </LinearGradientBrush>
             </Ellipse.Fill>
         </Ellipse>
-
-        <!-- Face -->
+        
+        
+<!-- Face -->       
         <Ellipse
             Fill="#FF162B63"
+            HorizontalAlignment="Left"
             Height="270"
-            Margin="65,65,65,65"
-            Stroke="#FF935F5F"
+            Margin="337,267,0,0"
+            Stroke="Black"
+            VerticalAlignment="Top"
             Width="270" />
-
-        <!-- Center -->
+        
+<!-- Center -->
+        
         <Ellipse
             Fill="#FF000000"
+            HorizontalAlignment="Left"
             Height="30"
-            Margin="670,431,666,0"
+            Margin="458,389,0,0"
             Stroke="#FFF7F5F5"
             StrokeThickness="8"
             VerticalAlignment="Top"
             Width="30" />
-
+        
         <!-- Second Hand -->
         <Rectangle
-            x:Name="secondHand"
             Fill="#FF9B0D0D"
+            HorizontalAlignment="Left"
             Height="80"
-            Margin="680,346,678,0"
-            RenderTransformOrigin="0.45,1.34"
-            Stroke="#FF000000"
+            Margin="467,304,0,0"
+            Stroke="#FFF7F5F5"
             VerticalAlignment="Top"
-            Width="4">
+            Width="4"
+            RenderTransformOrigin="0.45,1.34">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="secondHandTransform" />
             </Rectangle.RenderTransform>
         </Rectangle>
-
-        <!-- Minute Hand -->
+        
+<!-- Minute Hand -->
         <Rectangle
-            x:Name="minuteHand"
             Fill="White"
+            HorizontalAlignment="Left"
             Height="80"
-            Margin="679,346,678,0"
-            RenderTransformOrigin="0.45,1.34"
+            Margin="467,304,0,0"
             Stroke="Black"
             VerticalAlignment="Top"
-            Width="9">
+            Width="8"
+            RenderTransformOrigin="0.45,1.34">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="minuteHandTransform" />
             </Rectangle.RenderTransform>
         </Rectangle>
-
-        <!-- Hour Hand -->
+        
+<!-- Hour Hand -->
         <Rectangle
-            x:Name="hourHand"
             Fill="Black"
+            HorizontalAlignment="Left"
             Height="60"
-            Margin="679,366,676,0"
-            RenderTransformOrigin="0.45,1.45"
+            Margin="467,324,0,0"
             Stroke="Black"
             VerticalAlignment="Top"
-            Width="11">
+            Width="11"
+            RenderTransformOrigin="0.45,1.34">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="hourHandTransform" />
             </Rectangle.RenderTransform>
         </Rectangle>
+
+
 
     </Grid>
 </Page>
