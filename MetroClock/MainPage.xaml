@@ -156,8 +156,8 @@
         <Rectangle
             Fill="Black"
             HorizontalAlignment="Left"
-            Height="60"
-            Margin="467,324,0,0"
+            Height="50"
+            Margin="467,333,0,0"
             Stroke="Black"
             VerticalAlignment="Top"
             Width="11"
@@ -167,6 +167,138 @@
                     x:Name="hourHandTransform" />
             </Rectangle.RenderTransform>
         </Rectangle>
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="32"
+            Margin="458,272,0,0"
+            TextWrapping="Wrap"
+            Text="12"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="40" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="40"
+            Margin="526,290,0,0"
+            TextWrapping="Wrap"
+            Text="1"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="27" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="38"
+            Margin="559,333,0,0"
+            TextWrapping="Wrap"
+            Text="2"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="31" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="577,389,0,0"
+            TextWrapping="Wrap"
+            Text="3"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="559,445,0,0"
+            TextWrapping="Wrap"
+            Text="4"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="526,486,0,0"
+            TextWrapping="Wrap"
+            Text="5"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="467,506,0,0"
+            TextWrapping="Wrap"
+            Text="6"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="407,486,0,0"
+            TextWrapping="Wrap"
+            Text="7"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="361,445,0,0"
+            TextWrapping="Wrap"
+            Text="8"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="347,389,0,0"
+            TextWrapping="Wrap"
+            Text="9"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="361,333,0,0"
+            TextWrapping="Wrap"
+            Text="10"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Height="41"
+            Margin="396,290,0,0"
+            TextWrapping="Wrap"
+            Text="11"
+            FontSize="20"
+            FontFamily="Verdana"
+            Foreground="Silver"
+            VerticalAlignment="Top"
+            Width="30" />
 
 
 
