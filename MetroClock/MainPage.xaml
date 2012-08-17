@@ -43,13 +43,16 @@
     <Grid
         x:Name="LayoutRoot"
         Loaded="SetAndStartClock">
-<!-- Shadow -->
+        
       
+<!-- Shadow -->
+      <Canvas Width="600" Height="600">
         <Ellipse
             Fill="#FF000000"
             HorizontalAlignment="Left"
             Height="330"
-            Margin="312,240,0,0"
+            Canvas.Left="135"
+            Canvas.Top="135"
             Stroke="Black"
             VerticalAlignment="Top"
             Width="330"
@@ -59,7 +62,8 @@
         <Ellipse
             HorizontalAlignment="Left"
             Height="330"
-            Margin="307,235,0,0"
+            Canvas.Left="135"
+            Canvas.Top="135"
             Stroke="Black"
             VerticalAlignment="Top"
             Width="330" >
@@ -80,7 +84,8 @@
         <Ellipse
             HorizontalAlignment="Left"
             Height="290"
-            Margin="327,257,0,0"
+            Canvas.Left="155"
+            Canvas.Top="155"
             Stroke="Black"
             VerticalAlignment="Top"
             Width="290">
@@ -103,7 +108,8 @@
             Fill="#FF162B63"
             HorizontalAlignment="Left"
             Height="270"
-            Margin="337,267,0,0"
+            Canvas.Left="165"
+            Canvas.Top="165"
             Stroke="Black"
             VerticalAlignment="Top"
             Width="270" />
@@ -114,7 +120,8 @@
             Fill="#FF000000"
             HorizontalAlignment="Left"
             Height="30"
-            Margin="458,389,0,0"
+            Canvas.Left="285"
+            Canvas.Top="285"
             Stroke="#FFF7F5F5"
             StrokeThickness="8"
             VerticalAlignment="Top"
@@ -125,11 +132,12 @@
             Fill="#FF9B0D0D"
             HorizontalAlignment="Left"
             Height="80"
-            Margin="467,304,0,0"
-            Stroke="#FFF7F5F5"
+                Stroke="#FFF7F5F5"
             VerticalAlignment="Top"
             Width="4"
-            RenderTransformOrigin="0.45,1.34">
+            RenderTransformOrigin="0.45,1.34"
+                Canvas.Left="298"
+                Canvas.Top="200">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="secondHandTransform" />
@@ -141,11 +149,12 @@
             Fill="White"
             HorizontalAlignment="Left"
             Height="80"
-            Margin="467,304,0,0"
-            Stroke="Black"
+                Stroke="Black"
             VerticalAlignment="Top"
             Width="8"
-            RenderTransformOrigin="0.45,1.34">
+            RenderTransformOrigin="0.45,1.34"
+                Canvas.Left="294"
+                Canvas.Top="200">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="minuteHandTransform" />
@@ -157,11 +166,12 @@
             Fill="Black"
             HorizontalAlignment="Left"
             Height="50"
-            Margin="467,333,0,0"
-            Stroke="Black"
+                Stroke="Black"
             VerticalAlignment="Top"
             Width="11"
-            RenderTransformOrigin="0.45,1.34">
+            RenderTransformOrigin="0.45,1.34"
+                Canvas.Left="294"
+                Canvas.Top="230">
             <Rectangle.RenderTransform>
                 <RotateTransform
                     x:Name="hourHandTransform" />
@@ -170,137 +180,160 @@
         <TextBlock
             HorizontalAlignment="Left"
             Height="32"
-            Margin="458,272,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="12"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="40" />
+            Width="40"
+                Canvas.Left="285"
+                Canvas.Top="168" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="40"
-            Margin="526,290,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="1"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="27" />
+            Width="27"
+                Canvas.Left="350"
+                Canvas.Top="188" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="38"
-            Margin="559,333,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="2"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="31" />
+            Width="31"
+                Canvas.Left="391"
+                Canvas.Top="230" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="577,389,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="3"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="407"
+                Canvas.Top="285" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="559,445,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="4"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="392"
+                Canvas.Top="341" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="526,486,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="5"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="350"
+                Canvas.Top="383" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="467,506,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="6"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="285"
+                Canvas.Top="404" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="407,486,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="7"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="226"
+                Canvas.Top="383" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="361,445,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="8"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="191"
+                Canvas.Top="341" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="347,389,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="9"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="175"
+                Canvas.Top="285" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="361,333,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="10"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="191"
+                Canvas.Top="230" />
         <TextBlock
             HorizontalAlignment="Left"
             Height="41"
-            Margin="396,290,0,0"
-            TextWrapping="Wrap"
+                TextWrapping="Wrap"
             Text="11"
             FontSize="20"
             FontFamily="Verdana"
             Foreground="Silver"
             VerticalAlignment="Top"
-            Width="30" />
+            Width="30"
+                Canvas.Left="225"
+                Canvas.Top="188" />
+            <TextBlock
+                Height="91"
+                Canvas.Left="21"
+                TextWrapping="Wrap"
+                Text="METROCLOCK"
+                Canvas.Top="10"
+                TextAlignment="Center"
+                FontFamily="Verdana"
+                FontSize="50"
+                Foreground="Green"
+                Width="551" />
 
-
+        </Canvas>
 
     </Grid>
 </Page>
